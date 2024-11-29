@@ -1,4 +1,4 @@
-const PORT = `http://127.0.0.1:5500/`;
+const PORT = `https://developer-chandan-dev.github.io/Disco-Tailors/`;
 
 const hamburger = document.querySelector(".hamburger");
 const navbar = document.querySelector(".navbar");
