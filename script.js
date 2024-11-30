@@ -11,7 +11,7 @@ showHomeData();
 
 async function fetchHomeData(params) {
   console.log(params);
-  let response = await fetch(`./services/${params}`);
+  let response = await fetch(`${PORT}/services/${params}`);
   let homePageData = [];
   let value = await response.text();
   console.log(value);
