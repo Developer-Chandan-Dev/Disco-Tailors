@@ -14,6 +14,7 @@ async function fetchHomeData(params) {
   let response = await fetch(`${PORT}services/${params}`);
   let homePageData = [];
   let value = await response.text();
+  console.log(value);
 
   let div = document.createElement("div");
   div.innerHTML = value;
@@ -41,7 +42,7 @@ async function showHomeData() {
       element.href.endsWith(".png")
     ) {
       const data = element.querySelector(".name").innerHTML;
-
+      console.log(element, element.href);
       const name = data.split("[")[0];
       let category = data.split("[")[1];
       category = category.split("]")[0];
