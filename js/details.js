@@ -17,6 +17,9 @@ const title = document.querySelector(".title");
 const desc = document.querySelector(".desc");
 let images = [];
 let currentIndex = 0;
+document.querySelector(
+  "title"
+).innerHTML = `Disco Tailor - ${categoryName.replaceAll("_", " ")}`;
 
 const mainImage = document.getElementById("mainImage");
 
