@@ -1,4 +1,4 @@
-const PORT = `https://disco-tailors.netlify.app`;
+const PORT = `https://disco-tailors.netlify.app/`;
 
 const hamburger = document.querySelector(".hamburger");
 const navbar = document.querySelector(".navbar");
