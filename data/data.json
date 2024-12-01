@@ -1,0 +1,104 @@
+{
+  "home": [
+    {
+      "id": 1,
+      "fileName": "Classic_Shirt",
+      "filePath": "./services/home/Classic_Shirt.jpg",
+      "title": "Classic Shirt",
+      "category": "mens"
+    },
+    {
+      "id": 2,
+      "fileName": "Karachi_Suit",
+      "filePath": "./services/home/Karachi_Suit.jpg",
+      "title": "Karachi Suit",
+      "category": "womens"
+    },
+    {
+      "id": 3,
+      "fileName": "Polo_Shirt",
+      "filePath": "./services/home/Polo_Shirt.jpg",
+      "title": "Polo Shirt",
+      "category": "mens"
+    },
+    {
+      "id": 4,
+      "fileName": "Rajnandini_Salwar_Suit",
+      "filePath": "./services/home/Rajnandini_Salwar_Suit.jpg",
+      "title": "Rajnandini Salwar Suit",
+      "category": "womens"
+    },
+    {
+      "id": 5,
+      "fileName": "Sleev_Strate_Kurta",
+      "filePath": "./services/home/Sleev_Strate_Kurta.jpg",
+      "title": "Sleev Strate Kurta",
+      "category": "mens"
+    },
+    {
+      "id": 6,
+      "fileName": "White_Close_Coloar_Shirt",
+      "filePath": "./services/home/White_Close_Coloar_Shirt.jpg",
+      "title": "White Close Coloar Shirt",
+      "category": "mens"
+    },
+    {
+      "id": 7,
+      "fileName": "Women_Embroidered_Georgette_Floral_Print_Salwar_Suit",
+      "filePath": "./services/home/Women_Embroidered_Georgette_Floral_Print_Salwar_Suit.jpg",
+      "title": "Women Embroidered Georgette Floral Print Salwar Suit",
+      "category": "womens"
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "fileName": "Classic_Shirt",
+      "filePath": "./services/home/Classic_Shirt.jpg",
+      "title": "Classic Shirt",
+      "category": "mens"
+    },
+    {
+      "id": 2,
+      "fileName": "Karachi_Suit",
+      "filePath": "./services/home/Karachi_Suit.jpg",
+      "title": "Karachi Suit",
+      "category": "womens"
+    },
+    {
+      "id": 3,
+      "fileName": "Polo_Shirt",
+      "filePath": "./services/home/Polo_Shirt.jpg",
+      "title": "Polo Shirt",
+      "category": "mens"
+    },
+    {
+      "id": 4,
+      "fileName": "Rajnandini_Salwar_Suit",
+      "filePath": "./services/home/Rajnandini_Salwar_Suit.jpg",
+      "title": "Rajnandini Salwar Suit",
+      "category": "womens"
+    },
+    {
+      "id": 5,
+      "fileName": "Sleev_Strate_Kurta",
+      "filePath": "./services/home/Sleev_Strate_Kurta.jpg",
+      "title": "Sleev Strate Kurta",
+      "category": "mens"
+    },
+    {
+      "id": 6,
+      "fileName": "White_Close_Coloar_Shirt",
+      "filePath": "./services/home/White_Close_Coloar_Shirt.jpg",
+      "title": "White Close Coloar Shirt",
+      "category": "mens"
+    },
+    {
+      "id": 7,
+      "fileName": "Women_Embroidered_Georgette_Floral_Print_Salwar_Suit",
+      "filePath": "./services/home/Women_Embroidered_Georgette_Floral_Print_Salwar_Suit.jpg",
+      "title": "Women Embroidered Georgette Floral Print Salwar Suit",
+      "category": "womens"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "womensData": [
+    {
+      "id": 1,
+      "fileName": "Karachi_Suit",
+      "filePath": "../services/womens/Karachi_Suit.jpg",
+      "title": "Karachi Suit",
+      "category": "womens",
+      "description": "Description for Karachi Suite",
+      "gallery": [
+        "../services/womens/Karachi_Suit/1.webp",
+        "../services/womens/Karachi_Suit/2.webp",
+        "../services/womens/Karachi_Suit/3.webp"
+      ]
+    },
+    {
+      "id": 2,
+      "fileName": "Rajnandini_Salwar_Suit",
+      "filePath": "./services/home/Rajnandini_Salwar_Suit.jpg",
+      "title": "Rajnandini Salwar Suit",
+      "category": "womens",
+      "description": "Description for LogasRajnandini Salwar Suit",
+      "gallery": [
+        "../services/womens/Rajnandini_Salwar_Suit/1.webp",
+        "../services/womens/Rajnandini_Salwar_Suit/2.webp",
+        "../services/womens/Rajnandini_Salwar_Suit/3.webp",
+        "../services/womens/Rajnandini_Salwar_Suit/4.webp",
+        "../services/womens/Rajnandini_Salwar_Suit/5.webp"
+      ]
+    },
+    {
+      "id": 3,
+      "fileName": "Gillori_Order_Arka_Angrakha_Style_Kurta_Palazzo",
+      "filePath": "../services/womens/Gillori_Order_Arka_Angrakha_Style_Kurta_Palazzo.jpg",
+      "title": "Gillori Order Arka Angrakha Style Kurta Palazzo",
+      "category": "womens",
+      "description": "Description for Gillori Order Arka Angrakha Style Kurta Palazzo",
+      "gallery": [
+        "../services/womens/Gillori_Order_Arka_Angrakha_Style_Kurta_Palazzo/1.jpg",
+        "../services/womens/Gillori_Order_Arka_Angrakha_Style_Kurta_Palazzo/2.jpg",
+        "../services/womens/Gillori_Order_Arka_Angrakha_Style_Kurta_Palazzo/3.jpg",
+        "../services/womens/Gillori_Order_Arka_Angrakha_Style_Kurta_Palazzo/4.jpg",
+        "../services/womens/Gillori_Order_Arka_Angrakha_Style_Kurta_Palazzo/5.jpg",
+        "../services/womens/Gillori_Order_Arka_Angrakha_Style_Kurta_Palazzo/6.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "fileName": "Women_Embroidered_Georgette_Floral_Print_Salwar_Suit",
+      "filePath": "../services/womens/Women_Embroidered_Georgette_Floral_Prin_Salwar_Suit.jpg",
+      "title": "Women Embroidered Georgette Floral Print Salwar Suit",
+      "category": "womens",
+      "description": "Description for Women Embroidered Georgette Floral Print Salwar Suit",
+      "gallery": [
+        "../services/womens/Women_Embroidered_Georgette_Floral_Print_Salwar_Suit/1.webp",
+        "../services/womens/Women_Embroidered_Georgette_Floral_Print_Salwar_Suit/2.webp",
+        "../services/womens/Women_Embroidered_Georgette_Floral_Print_Salwar_Suit/3.webp",
+        "../services/womens/Women_Embroidered_Georgette_Floral_Print_Salwar_Suit/4.webp"
+      ]
+    },
+    {
+      "id": 5,
+      "fileName": "Women_Embroidery_Salwar_Suit",
+      "filePath": "../services/womens/Women_Embroidery_Salwar_Suit.jpg",
+      "title": "Women Embroidery Salwar Suit",
+      "category": "womens",
+      "description": "Description for Women Embroidery Salwar Suit",
+      "gallery": [
+        "../services/womens/Women_Embroidery_Salwar_Suit/1.webp",
+        "../services/womens/Women_Embroidery_Salwar_Suit/2.webp",
+        "../services/womens/Women_Embroidery_Salwar_Suit/3.webp",
+        "../services/womens/Women_Embroidery_Salwar_Suit/4.webp",
+        "../services/womens/Women_Embroidery_Salwar_Suit/5.webp"
+      ]
+    },
+    {
+      "id": 5,
+      "fileName": "Women_Kurta_Plazzo_Set",
+      "filePath": "../services/womens/Women_Kurta_Plazzo_Set.jpg",
+      "title": "Women Kurta Plazzo Set",
+      "category": "womens",
+      "description": "Description for Women Kurta Plazzo Set",
+      "gallery": [
+        "../services/womens/Women_Kurta_Plazzo_Set/1.webp",
+        "../services/womens/Women_Kurta_Plazzo_Set/2.webp",
+        "../services/womens/Women_Kurta_Plazzo_Set/3.webp",
+        "../services/womens/Women_Kurta_Plazzo_Set/4.webp"
+      ]
+    }
+  ]
+}

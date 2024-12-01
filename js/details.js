@@ -6,7 +6,7 @@ const categoryKey = urlParams.has("mens")
   ? "womens"
   : null;
 const categoryName = urlParams.get(categoryKey);
-fetchProductDetails();
+// fetchProductDetails();
 
 const thumbnailContainer = document.querySelector("#thumbnail-container");
 const prevButton = document.getElementById("prev");
@@ -18,66 +18,6 @@ const desc = document.querySelector(".desc");
 let images = [];
 let currentIndex = 0;
 
-async function fetchProductDetails() {
-  console.log(categoryKey, categoryName);
-  let response = await fetch(
-    `${PORT}services/${categoryKey}/${categoryName.replaceAll("_", " ")}`
-  );
-  let value = await response.text();
-
-  let div = document.createElement("div");
-  div.innerHTML = value;
-  let as = div.getElementsByTagName("a");
-  let lis = div.getElementsByTagName("li");
-
-  if (lis.length <= 1) {
-    const h2 = document.createElement("h2");
-    h2.innerHTML = "No Data found";
-  }
-
-  for (let index = 0; index < as.length; index++) {
-    const element = as[index];
-
-    // Product details
-    if (
-      element.href.endsWith(".png") ||
-      element.href.endsWith(".jpg") ||
-      element.href.endsWith(".webp") ||
-      element.href.endsWith(".json")
-    ) {
-      if (!element.href.endsWith(".json")) {
-        // Adding gallery images
-        thumbnailContainer.innerHTML += `
-          <div class="thumbnail display-images">
-            <img src=${element.href} alt=""/>
-          </div>
-          `;
-        thumbnails = document.querySelectorAll(".thumbnail");
-        images.push(element.href);
-        // Initialize the first image as active
-        updateMainImage(currentIndex);
-
-        thumbnails.forEach((thumbnail, index) => {
-          thumbnail.addEventListener("click", () => {
-            currentIndex = index; // Set the clicked thumnail as the active image
-            updateMainImage(currentIndex);
-          });
-        });
-      }
-
-      // Adding product content
-      if (element.href.endsWith(".json")) {
-        let jsonData = await fetch(element.href);
-        jsonData = await jsonData.json();
-
-        title.innerHTML = jsonData.title;
-        desc.innerHTML = jsonData.desc;
-      }
-    }
-  }
-}
-
-// Gallery images
 const mainImage = document.getElementById("mainImage");
 
 // Function to update the main image and active thumbnail
@@ -98,3 +38,57 @@ nextButton.addEventListener("click", () => {
   currentIndex = (currentIndex + 1) % images.length; // Go to the next image
   updateMainImage(currentIndex);
 });
+
+// New logic
+if (categoryKey === "mens") {
+  fetchDetailsData("mensData.json");
+}
+if (categoryKey === "womens") {
+  fetchDetailsData("womensData.json");
+}
+function fetchDetailsData(params) {
+  fetch(`../data/${params}`)
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error("Failed to load JSON file");
+      }
+      return response.json();
+    })
+    .then((data) => {
+      // Example : Accessing the 'home' products
+      console.log(data);
+      const response = categoryKey === "mens" ? data.mensData : data.womensData;
+
+      response.forEach((item) => {
+        if (item.fileName === categoryName) {
+          console.log(item);
+          item?.gallery?.forEach((image) => {
+            console.log(image);
+            thumbnailContainer.innerHTML += `
+          <div class="thumbnail display-images">
+            <img src=${image} alt=${item.title}/>
+          </div>
+          `;
+
+            thumbnails = document.querySelectorAll(".thumbnail");
+            images.push(image);
+            // Initialize the first image as active
+            updateMainImage(currentIndex);
+
+            thumbnails.forEach((thumbnail, index) => {
+              thumbnail.addEventListener("click", () => {
+                currentIndex = index; // Set the clicked thumnail as the active image
+                updateMainImage(currentIndex);
+              });
+            });
+
+            title.innerHTML = item.title;
+            desc.innerHTML = item.description;
+          });
+        }
+      });
+    })
+    .catch((error) => {
+      console.log(error);
+    });
+}

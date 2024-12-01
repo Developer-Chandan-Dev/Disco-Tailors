@@ -1,0 +1,108 @@
+{
+  "mensData": [
+    {
+      "id": 1,
+      "fileName": "Classic_Shirt",
+      "filePath": "../services/mens/Classic_Shirt.jpg",
+      "title": "Classic Shirt",
+      "category": "mens",
+      "description": "Description for classic shirt",
+      "gallery": [
+        "../services/mens/Classic_Shirt/1.webp",
+        "../services/mens/Classic_Shirt/2.webp",
+        "../services/mens/Classic_Shirt/3.webp",
+        "../services/mens/Classic_Shirt/4.webp",
+        "../services/mens/Classic_Shirt/5.webp",
+        "../services/mens/Classic_Shirt/6.webp"
+      ]
+    },
+    {
+      "id": 2,
+      "fileName": "Polo_Shirt",
+      "filePath": "../services/mens/Polo_Shirt.jpg",
+      "title": "Polo Shirt",
+      "category": "mens",
+      "description": "Description for Polo shirt",
+      "gallery": [
+        "../services/mens/Polo_Shirt/1.jpg",
+        "../services/mens/Polo_Shirt/2.jpg",
+        "../services/mens/Polo_Shirt/3.jpg",
+        "../services/mens/Polo_Shirt/4.jpg",
+        "../services/mens/Polo_Shirt/5.jpg",
+        "../services/mens/Polo_Shirt/6.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "fileName": "Sleev_Strate_Kurta",
+      "filePath": "../services/mens/Sleev_Strate_Kurta.jpg",
+      "title": "Sleev Strate Kurta",
+      "category": "mens",
+      "description": "Description for Sleev Strate Kurta",
+      "gallery": [
+        "../services/mens/Sleev_Strate_Kurta/1.webp",
+        "../services/mens/Sleev_Strate_Kurta/2.webp",
+        "../services/mens/Sleev_Strate_Kurta/3.webp"
+      ]
+    },
+    {
+      "id": 4,
+      "fileName": "White_Close_Coloar_Shirt",
+      "filePath": "./services/home/White_Close_Coloar_Shirt.jpg",
+      "title": "White Close Coloar Shirt",
+      "category": "mens",
+      "description": "Description for White Close Coloar shirt",
+      "gallery": [
+        "../services/mens/White_Close_Coloar_Shirt/1.webp",
+        "../services/mens/White_Close_Coloar_Shirt/2.webp",
+        "../services/mens/White_Close_Coloar_Shirt/3.webp",
+        "../services/mens/White_Close_Coloar_Shirt/4.webp",
+        "../services/mens/White_Close_Coloar_Shirt/5.webp"
+      ]
+    },
+    {
+      "id": 5,
+      "fileName": "Logass_Kurta_Pajama",
+      "filePath": "../services/mens/Logass_Kurta_Pajama.jpg",
+      "title": "Logass Kurta Pajama",
+      "category": "mens",
+      "description": "Description for Logass Kurta Pajama",
+      "gallery": [
+        "../services/mens/Logass_Kurta_Pajama/1.webp",
+        "../services/mens/Logass_Kurta_Pajama/2.webp",
+        "../services/mens/Logass_Kurta_Pajama/3.webp",
+        "../services/mens/Logass_Kurta_Pajama/4.webp"
+      ]
+    },
+    {
+      "id": 6,
+      "fileName": "Sequence_Kurta",
+      "filePath": "../services/mens/Sequence_Kurta.jpg",
+      "title": "Logass Kurta Pajama",
+      "category": "mens",
+      "description": "Description for Logass Kurta Pajama",
+      "gallery": [
+        "../services/mens/Sequence_Kurta/1.webp",
+        "../services/mens/Sequence_Kurta/2.webp",
+        "../services/mens/Sequence_Kurta/3.webp",
+        "../services/mens/Sequence_Kurta/4.webp",
+        "../services/mens/Sequence_Kurta/5.webp"
+      ]
+    },
+    {
+      "id": 7,
+      "fileName": "Mens_Kurta_Pajama_Set",
+      "filePath": "../services/mens/Mens_Kurta_Pajama_Set.jpg",
+      "title": "Mens Kurta Pajama Set",
+      "category": "mens",
+      "description": "Description for Mens Kurta Pajama Set",
+      "gallery": [
+        "../services/mens/Mens_Kurta_Pajama_Set/1.webp",
+        "../services/mens/Mens_Kurta_Pajama_Set/2.webp",
+        "../services/mens/Mens_Kurta_Pajama_Set/3.webp",
+        "../services/mens/Mens_Kurta_Pajama_Set/4.webp",
+        "../services/mens/Mens_Kurta_Pajama_Set/5.webp"
+      ]
+    }
+  ]
+}
