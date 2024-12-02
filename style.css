@@ -187,7 +187,7 @@ header nav ul li a:hover {
   font-weight: 800;
   font-size: 52px;
   padding: 20px 0 20px 0px;
-  line-height: 56px;
+  line-height: 70px;
 }
 .hero_section_area p {
   padding: 0px 0 15px 0;
@@ -285,6 +285,16 @@ main {
   font-size: 15px;
   color: var(--color-3);
 }
+.intro-content_section ul {
+  margin-top: 10px;
+}
+.intro-content_section ul li {
+  list-style-type: circle;
+  margin-left: 20px;
+  font-size: 15px;
+  color: var(--color-3);
+  /* text-align: left; */
+}
 .intro-content_section button {
   margin-top: 10px;
 }
@@ -302,27 +312,25 @@ main {
 }
 
 /* Models section start */
-.models-section{
+.models-section {
   padding: 40px 10px;
   margin: 50px auto !important;
   gap: 20px;
   flex-wrap: wrap;
 }
-.model-box{
+.model-box {
   width: 250px;
   height: 300px;
   border-radius: 10px;
   border: 1px solid silver;
   overflow: hidden;
 }
-.model-box img{
+.model-box img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 /* Models section end */
-
-
 
 /* Services section start */
 .services_section {
@@ -434,6 +442,9 @@ main {
   padding: 10px 0;
   font-size: 40px;
   color: var(--color-1);
+}
+.contact-details h2{
+  color: var(--color-2);
 }
 
 .contact-details p {
