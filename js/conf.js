@@ -1,4 +1,4 @@
-const PORT = `http://127.0.0.1:5500/`;
+const PORT = `https://disco-tailors.netlify.app/`;
 
 const hamburger = document.querySelector(".hamburger");
 const navbar = document.querySelector(".navbar");
