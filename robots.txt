@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://disco-tailors.netlify.app/sitemap.xml
