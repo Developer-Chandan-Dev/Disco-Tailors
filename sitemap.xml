@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://disco-tailors.netlify.app/index.html</loc>
+    <lastmod>2024-12-22</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://disco-tailors.netlify.app/pages/services.html</loc>
+    <lastmod>2024-12-22</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://disco-tailors.netlify.app/pages/mens.html</loc>
+    <lastmod>2024-12-22</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://disco-tailors.netlify.app/pages/womens.html</loc>
+    <lastmod>2024-12-22</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://disco-tailors.netlify.app/pages/details-page.html</loc>
+    <lastmod>2024-12-22</lastmod>
+    <priority>0.6</priority>
+  </url>
+</urlset>
