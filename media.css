@@ -83,6 +83,9 @@
   .rounded-section {
     height: 450px;
   }
+  .first-br {
+    display: none;
+  }
 }
 @media (max-width: 600px) {
   .map-box {
@@ -330,6 +333,9 @@
   }
   .rounded-section {
     height: 280px;
+  }
+  .second-br {
+    display: none;
   }
 }
 /* Details page css */

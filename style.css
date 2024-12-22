@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 :root {
@@ -204,7 +204,8 @@ main {
 .intro_section {
   flex-wrap: wrap;
   gap: 100px;
-  padding: 20px 0;
+  padding: 60px 0;
+  /* background-color: crimson; */
 }
 
 .intro-image_section {
@@ -326,7 +327,35 @@ main {
   border-radius: 10px;
   border: 1px solid silver;
   overflow: hidden;
+  position: relative;
 }
+.model-box .model-box-content {
+  content: "";
+  width: 100%;
+  height: 0;
+  position: absolute;
+  display: block;
+  color: var(--color-0);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), #235e95);
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  transition: height 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.model-box .model-box-content p {
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.model-box:hover .model-box-content {
+  height: 300px;
+}
+
 .model-box img {
   width: 100%;
   height: 100%;
@@ -445,7 +474,7 @@ main {
   font-size: 40px;
   color: var(--color-1);
 }
-.contact-details h2{
+.contact-details h2 {
   color: var(--color-2);
 }
 
@@ -485,13 +514,18 @@ main {
 footer {
   width: 80%;
   height: 100px;
-  background: #f3f3f3;
+  background: #fafafa;
   padding: 0px 40px;
   flex-wrap: wrap;
 }
 footer p {
   font-weight: 500;
-  color: #909090;
+  color: var(--color-2);
+}
+
+footer p svg {
+  margin: 0 5px;
+  fill: var(--color-2);
 }
 /* Footer  end*/
 
